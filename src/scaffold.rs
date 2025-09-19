@@ -1,3 +1,5 @@
+use colored::Colorize;
+
 pub fn scaffold(path: String) {
-    println!("Scaffolding {}", path);
+    println!("{} {}", "Scaffolding...".green(), path);
 }
